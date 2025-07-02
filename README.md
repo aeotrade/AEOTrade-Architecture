@@ -8,17 +8,17 @@
 ![image](https://github.com/user-attachments/assets/8f110b84-d634-4a40-a02e-585592bbf096)
 
 # 主要模块说明
-+ 1、AEOTrade-Architecture （总体架构说明的目录）
-+ 2、AEOTrade-ChainProtocol（信贸链协议白皮书，建议大家在使用该项目前可以优先阅读一下信贸链协议，便于大家对项目有一个宏观的认识）
-+ 3、AEOTrade-Server （慧贸OS后端）
-+ 4、AEOTrade-Web （慧贸OS前端）
-+ 5、AEOTrade-Connection-System （慧贸OS连接器管理系统）
-+ 6、django-aeotrade-connector   （慧贸OS连接器开发框架）
-+ 7、AEOTrade-Contract （慧贸OS合约系统）
-+ 8、AEOTrade-Exchange （慧贸OS交换系统）
-+ 9、AEOTrade-SmartContract （基于信贸链协议的智能合约实现）
-+ 10、AEOTrade-Deploy （项目的部署方式说明）
-# 下一步计划：
++ 1、AEOTrade-Architecture：总体架构说明的目录
++ 2、AEOTrade-ChainProtocol：https://github.com/aeotrade/AEOTrade-ChainProtocol，信贸链协议白皮书，建议大家在使用该项目前可以优先阅读一下信贸链协议，便于大家对项目有一个宏观的认识，本开源项目主要也是基于信贸链协议的思想进行实现的，后续也会在协议的基础上进行后续迭代，希望通过信贸链协议能够让贸易参与各方能够在一个通用的技术规范下进行互联互通。
++ 3、AEOTrade-Server：https://github.com/aeotrade/AEOTrade-Server，慧贸OS的主要后端程序，包括慧贸OS工作台、数字身份、协助合约编排等功能实现，并可以通过慧贸OS进行需求、产品发布，并可以通过慧贸OS的AI能力进行智能匹配。
++ 4、AEOTrade-Web:https://github.com/aeotrade/AEOTrade-Web，慧贸OS的前端程序，包括慧贸OS工作台、数字身份、协助合约编排等功能实现。
++ 5、AEOTrade-Connection-System: https://github.com/aeotrade/AEOTrade-Connection-System，连接器是慧贸OS的一个重要概念，连接器解决了企业内外部各个应用系统对接问题，你只需要将你的连接器上线就可以像搭积木一样，快速实现业务自动化处理和执行。
++ 6、django-aeotrade-connector: https://github.com/aeotrade/django-aeotrade-connector,慧贸OS连接器开发框架，为了降低大家对连接器的开发难度，大家可以在框架的基础上快速开发，然后形成自己的连接器。
++ 7、AEOTrade-Contract: https://github.com/aeotrade/AEOTrade-Contract,慧贸OS合约系统, 作为慧贸OS业务流程编排的后端支撑。
++ 8、AEOTrade-Exchange : https://github.com/aeotrade/AEOTrade-Exchange,慧贸OS交换系统, 作为慧贸OS中各业务系统间信息传递，文件传递交换的后端支撑。
++ 9、AEOTrade-SmartContract : https://github.com/aeotrade/AEOTrade-SmartContract,基于信贸链协议的智能合约实现，目前代码中的合约主要是基于长安链进行的测试, 通过智能合约可进行交易过程存证和分布式数据存储。
++ 10、AEOTrade-Deploy：https://github.com/aeotrade/AEOTrade-Deploy，项目的部署方式说明，大家可以通过该项目完成慧贸OS开源版本的环境搭建与部署。
+# 下一步计划
 联合权威机构，成立全球贸易科技联盟，融合国际高标准经贸规则和标准，建设“信贸链”开源社区，不断推进产业操作系统的迭代与升级，促进更多业务场景应用“信贸链”，推动“信贸链”成为全球数字贸易的通用基础设施。
 # 版权信息
 This software is licensed under the GNU Lesser General Public License (LGPL) version 3.0 or later. However, it is not permitted to use this software for commercial purposes without explicit permission from the copyright holder.
